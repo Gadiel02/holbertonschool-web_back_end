@@ -5,6 +5,7 @@ This module provides a function for summing a mixed list of integers and floats.
 
 from typing import List, Union
 
+
 def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
     """
     Sums up all the integer and float values in a list.
