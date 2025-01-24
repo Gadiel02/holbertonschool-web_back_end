@@ -2,17 +2,18 @@
 """
 This is a module that provides a function for summing list values.
 """
-
 from typing import List
+
 
 def sum_list(input_list: List[float]) -> float:
     """
-    Sums up all the float values in a list.
+    This function adds two numbers and returns the result.
 
-    Args:
-        input_list (List[float]): A list of float numbers to be summed.
+    Parameters:
+    a (float): The first number.
+    b (float): The second number.
 
     Returns:
-        float: The sum of all the numbers in the input list.
+    float: The sum of a and b.
     """
     return sum(input_list)
